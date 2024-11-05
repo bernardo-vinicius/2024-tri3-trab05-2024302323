@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+  
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  border: 0;
+}
+
+header {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #9644c6;
+}
+
+header h1 {
+  text-align: center;
+}
+
+aside {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #4d2166;
+}
+
+aside h2 {
+  text-align: center;
+}
+
+main {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #612a80;
+  padding: 0.5rem;
+}
+
+main .gremio {
+  background-color: #2c3c7d;
+}
+
+main .undertale{
+  background-color: #9f201c;
+}
+
+main .rap {
+  background-color: #33302d;
+}
+
+main .gremio .principal, .undertale .principal, .rap .principal {
+  grid-column: span 2; 
+  grid-row: span 2; 
+  height: 215px; 
+}
+
+main .gremio .principal img, .undertale .principal img, .rap .principal img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.modal-fotos {
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  background-color: #8b03b5;
+  border-radius: 8px;
+  color: #000000;
+  padding: 10px 24px;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #48035c;
+}
+
+footer {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #43155c;
+}
